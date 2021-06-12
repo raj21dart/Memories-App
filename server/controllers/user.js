@@ -27,6 +27,7 @@ export const signin = async (req, res) => {
 //    sign-Up
 export const signup = async (req, res) => {
     const { email, password, confirmPassword, firstName, lastName } = req.body;
+    console.log('In server signin')
 
     try {
         const existingUser = await User.findOne({ email });

@@ -8,7 +8,6 @@ export default (posts = [], action) => {
         case UPDATE:
             return posts.map((post) => post._id === action.payload._id ? action.payload : post)
         case FETCH_ALL:
-            console.log('FETCH-ALL')
             return action.payload
         case CREATE:
             return [...posts, action.payload]
