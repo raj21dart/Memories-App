@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API = axios.create({ baseUrl: 'https://5000-brown-cockroach-h4u21vfg.ws-us09.gitpod.io'})
+const API = axios.create({ baseURL: 'https://5000-brown-cockroach-h4u21vfg.ws-us09.gitpod.io'})
 
 // const url = 'https://memories21.herokuapp.com/posts'
 
